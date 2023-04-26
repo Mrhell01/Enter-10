@@ -36,3 +36,222 @@
     transform: rotate(360deg);
   }
 }
+
+/* -------------------------- */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+}
+
+.Navbar a {
+  padding-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.list a {
+  padding-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+.list li {
+  padding-left: 15px;
+  padding-right: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+.text-align {
+  text-align: center;
+}
+.listpayment {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+.listpayment button {
+  padding: 8px;
+  margin: 0 20px 0px 10px;
+}
+.box {
+  margin-top: 150px;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section {
+  position: absolute;
+  background-color: black;
+  padding: 30px;
+  /* padding-bottom:15px ; */
+  bottom: 0px;
+  /* left:25%; */
+  width: 100%;
+}
+.section p {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  margin-bottom: 0;
+}
+.Region-filter {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.containerpaymentpage {
+  margin-top: 150px;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px ; */
+  padding: 20px;
+  /* border-radius: 5px; */
+}
+.razorpay {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.listpayment {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.space {
+  margin: 5px;
+  padding: 5px;
+}
+
+.signin {
+  text-align: left;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-shadow: #565656 10px;
+  background-color: #565656 inverse;
+  background-image: none;
+  fill-opacity: 50;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+ 
+  width: 20vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.log {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.log p span a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.signup {
+  text-align: left;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 20vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.clock section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  position: relative;
+  margin: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(270deg, #051817, #0e3839); */
+  /* height: 70px; */
+  /* width: 100px; */
+  /* color: #06f1f6; */
+  /* text-shadow: 1px 1px 7px;
+  border-radius: 5px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 25px; */
+}
+/* 
+body{
+  background-image: url("../src/Components/Img/movie.jpg");
+} */
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  background-image: url("");
+}
+
+.container{
+  width: 100%;
+  margin: 1em auto;
+  background-color: darkslategray;
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
+
+h2{
+  background-color: antiquewhite;
+} */
