@@ -81,7 +81,7 @@ const Home = (props) => {
         textAlign: "center"
       }}>{props.name ? `Welcome - ${props.name}` : "Login Please"}
       </h4>
-      <Example></Example>
+      {/* <Example></Example> */}
       <Cards></Cards>
       <Footer></Footer>
     </div>

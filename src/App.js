@@ -15,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import UserDashboard from './Components/Pages/UserDashboard';
 import PrivateRoute from './Components/PrivateRoute';
 import Netflix from './Components/Netflix/Netflix';
+import Razorpay from './Components/Razorpay';
 
 
 
@@ -59,6 +60,8 @@ function App() {
           <Route path="/Signup" element ={<Signup/>}/>
           <Route path="/Signout" element={<Signout />} />
           <Route path="/Netflix" element={<Netflix />} />
+          <Route path="/razorpay" element={<Razorpay/>} />
+
 
 
 
